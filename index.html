@@ -1,9 +1,196 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to Machine Learning Book Club</title>
+  <meta charset="utf-8">
+    <title>MachineLearningBookClub.com</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+            background: #feffff; /* Old browsers */
+            background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+        }
+
+        main {
+            margin: 0 auto;
+            margin-top: 5em;
+            width: 100%;
+            max-width: 1024px;
+            padding: 0 20px;
+
+        }
+
+        figure > img {
+            width: 10em;
+        }
+
+        .icon {
+            font-size: 2em;
+        }
+
+        .intro {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        section {
+            margin: 1em;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        figure {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Machine Learning Book Club Test</h1>
+    <main>
+        <header>
+            <h1>Machine Learning Book Club</h1>
+            <h2>A technical book club for ML Practitioners</h2>
+        </header>
+
+        <section class="intro">
+            <article>
+                <h2>What <span>📖</span></h2>
+                <p>The Machine Learning Book Club is for practioners to read, work through, and discuss the topics, implications, and takeaways from curated machine learning books</p>
+            </article>
+            <article>
+                <h2>Why <span>💬</span></h2>
+                <p>This book club exists for practitioners to deepen their knowledge, collaborate, and discuss machine learning texts</p>
+                <p>By working through the examples and problems in the books, book club members will gain a deeper understanding of the craft.</p>
+            </article>
+            <article>
+                <h2>When/Where <span>📅</span></h2>
+                <p>We'll have our first meeting Wednesday, August 5th, 2020 on Zoom. Register below for a calendar invitation.</p>
+                <p>The first meeting's purpose will be to discuss and select the first book for reading and discussion</p>
+                <p>The four selections below are our curated list of options.</p>
+                <p>At the first meeting, we'll decide on a single book for working through and discussing</p>
+            </article>
+        </section>
+        
+        <section>
+            <h3>Here are the 4 Book Options for our first book for discussion</h3>
+            <hr>
+            <div class="options">
+                <article>
+                    <h5>Hands-On Machine Learning <br><small>with Scikit-Learn, Keras, and TensorFlow</small></h5>
+                    <figure>
+                        <img src="./images/homl.jpeg">
+                        <figcaption>
+                            <ul>
+                                <li>Heavy on panadas</li>
+                                <li>Good datasets</li>
+                                <li>Lots of TensorFlow</li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                    
+                </article>
+                    <article>
+                    <h5>Introduction to Applied Linear Algebra
+                        <br><small>Vectors, Matrices, and Least Squares</small></h5>
+                    <figure>
+                        <img src="./images/vmls.jpg">
+                        <figcaption>
+                            <ul>
+                                <li>Strong Linear Algebra text</li>
+                                <li>Lots of math notation</li>
+                                <li>Fundamental maths to ML</li>
+                                <li>This is a math book!</li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                    <div class="features">
+                        
+                    </div>
+                </article>
+                <article>
+                    <h5>Deep Learning with Python</h5>
+                    <figure>                
+                        <img src="./images/deep-learning-with-python.jpg">
+                        <figcaption>
+                            <ul>
+                                <li>Keras from Keras author</li>
+                                <li>Deep Learning</li>
+                                <li>Lots of examples</li>
+                                <li>Very approachable code</li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                    <div class="features">
+                        
+                    </div>
+                </article>
+                <article>
+                    <h5>Thoughtful Machine Learning <br><small>a Test Driven Approach</small></h5>
+                    <figure>                
+                        <img src="./images/thoughtful-machine-learning.webp">
+                        <figcaption>
+                            <ul>
+                                <li>Intro to Test Driven Development</li>
+                                <li>Uses classes/objects</li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                    <div class="features">
+                        
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="register">
+            <!-- <h2>Sign up</h2>
+            <form>
+                name
+                email
+                comments
+            </form> -->
+        </section>
+        <footer>
+            
+        </footer>
+    </main>
 </body>
 </html>

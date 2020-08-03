@@ -1,0 +1,1 @@
+Including `.nojekyll` ensures that navigating to the root of this site renders index.html
