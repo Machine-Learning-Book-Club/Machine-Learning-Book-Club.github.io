@@ -109,9 +109,9 @@
             </article>
         </section>
         
+        <hr>
         <section>
-            <h3>Here are the 4 Book Options for our first book for discussion</h3>
-            <hr>
+            <h3>Here are the 4 Books to consider as options for our first book!</h3>
             <div class="options">
                 <article>
                     <h5>Hands-On Machine Learning <br><small>with Scikit-Learn, Keras, and TensorFlow</small></h5>
@@ -151,8 +151,8 @@
                         <img src="./images/deep-learning-with-python.jpg">
                         <figcaption>
                             <ul>
+                                <li>Deep dive on Deep Learning</li>
                                 <li>Keras from Keras author</li>
-                                <li>Deep Learning</li>
                                 <li>Lots of examples</li>
                                 <li>Very approachable code</li>
                             </ul>
@@ -170,6 +170,7 @@
                             <ul>
                                 <li>Intro to Test Driven Development</li>
                                 <li>Uses classes/objects</li>
+                                <li>Implements deep learning from scratch. No Tensorflow or Keras.</li>
                             </ul>
                         </figcaption>
                     </figure>
@@ -180,13 +181,44 @@
 
             </div>
         </section>
+        <hr>
         <section class="register">
-            <!-- <h2>Sign up</h2>
-            <form>
-                name
-                email
-                comments
-            </form> -->
+            <!-- The above form looks like this -->
+             <form action="https://www.elformo.com/forms/86cce583-6414-484c-939e-f1787e6558b0" method="post" accept-charset="UTF-8">
+              <div class="row">
+                <div class="four columns">
+                  <label for="name">Your Name</label>
+                  <input class="u-full-width" type="text" placeholder="Your Name" id="name" required autofocus>
+                </div>
+                <div class="four columns">
+                  <label for="email">Your email</label>
+                  <input class="u-full-width" type="email" placeholder="you@domain.com" id="email" required>
+                </div>
+                <div class="four columns">
+                  <label for="book-preference">Initial Preference</label>
+                  <select class="u-full-width" id="book-preference">
+                    <option value="HOML">Hands-on Machine Learning</option>
+                    <option value="VMLS">Introduction to Linear Algebra - Vectors, Matricies, and Least Squares</option>
+                    <option value="DL">Deep Learning with Python</option>
+                    <option value="TDD">Thoughtful Machine Learning, a Test Driven Approach</option>
+                  </select>
+                </div>
+              </div>
+              
+              <label for="exampleMessage">Any other message or thought</label>
+              <textarea class="u-full-width" placeholder="Hi there…" id="exampleMessage"></textarea>
+              
+              <label class="example-send-yourself-copy" for="subscribe">
+                <input type="checkbox" id="subscribe" name="subscribe" checked>
+                <span class="label-body" >Subscribe to notifications</span>
+              </label>
+              <input class="button-primary" type="submit" value="Submit">
+            </form>
+
+            <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+            <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+
         </section>
         <footer>
             
